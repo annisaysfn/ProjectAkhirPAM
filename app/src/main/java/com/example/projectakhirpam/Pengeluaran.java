@@ -1,15 +1,19 @@
 package com.example.projectakhirpam;
 
+//sebagai wadah data aplikasi
 public class Pengeluaran {
+    //deklarasi string
     String id;
     String judul;
     String keterangan;
     String harga;
     String tanggal;
 
+    //konstruktor Pengeluaran tanpa parameter
     public Pengeluaran() {
     }
 
+    //Konstruktor Pengeluaran dengan parameter
     public Pengeluaran(String id, String judul, String keterangan, String harga, String tanggal) {
         this.id = id;
         this.judul = judul;
@@ -18,6 +22,9 @@ public class Pengeluaran {
         this.tanggal = tanggal;
     }
 
+    //Generate Getter and Setter
+    //method get untuk mengembalikan nilai ke variabel string
+    //method set untuk mengisi data ke variabel string
     public String getId() {
         return id;
     }
